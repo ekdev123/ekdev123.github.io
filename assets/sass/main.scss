@@ -702,6 +702,34 @@
 		}
 	}
 
+/* Skills */
+
+	h4.skill-category {
+		color: _palette(fg-light);
+		font-size: 0.9em;
+		letter-spacing: 0.05em;
+		margin: 0 0 0.75em 0;
+		text-transform: uppercase;
+	}
+
+	ul.skills-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6em;
+		list-style: none;
+		margin: 0 0 _size(element-margin) 0;
+		padding: 0;
+
+		li {
+			background: _palette(border-bg);
+			border: solid 1px _palette(border);
+			border-radius: _size(border-radius);
+			color: _palette(fg);
+			font-size: 0.85em;
+			padding: 0.45em 1em;
+		}
+	}
+
 /* Icon */
 
 	.icon {

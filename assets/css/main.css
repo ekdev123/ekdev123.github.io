@@ -1899,6 +1899,32 @@ input[type=radio] + label:before {
   border-radius: 0 0 6px 6px;
 }
 
+/* Skills */
+h4.skill-category {
+  color: #8a8a8a;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.75em 0;
+  text-transform: uppercase;
+}
+
+ul.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  list-style: none;
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+ul.skills-list li {
+  background: #242424;
+  border: solid 1px #333333;
+  border-radius: 6px;
+  color: #bcbcbc;
+  font-size: 0.85em;
+  padding: 0.45em 1em;
+}
+
 /* Icon */
 .icon {
   text-decoration: none;
