@@ -1465,7 +1465,9 @@
 		.icons {
 			a {
 				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
+				display: inline-block;
 				opacity: 0.35;
+				padding: 0.75em;
 
 				&:hover {
 					opacity: 0.75;
@@ -1588,7 +1590,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		/* Header */
@@ -1618,7 +1620,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 	}
@@ -1638,7 +1640,7 @@
 			}
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 			h2, h3, h4, h5, h6 {
@@ -1820,7 +1822,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 			h2 {
@@ -1973,7 +1975,7 @@
 			}
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		/* Section/Article */

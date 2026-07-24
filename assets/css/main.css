@@ -2655,7 +2655,9 @@ body.landing #main {
   -webkit-transition: opacity 0.2s ease-in-out;
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
+  display: inline-block;
   opacity: 0.35;
+  padding: 0.75em;
 }
 #footer .icons a:hover {
   opacity: 0.75;
@@ -2754,7 +2756,7 @@ body.landing #main {
 @media screen and (max-width: 1280px) {
   /* Basic */
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 12pt;
   }
   /* Header */
   .dropotron.level-0 {
@@ -2772,7 +2774,7 @@ body.landing #main {
 @media screen and (max-width: 980px) {
   /* Basic */
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 12pt;
   }
 }
 /* Narrower */
@@ -2786,7 +2788,7 @@ body.landing #main {
     overflow-x: hidden;
   }
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 12pt;
   }
   h2 br, h3 br, h4 br, h5 br, h6 br {
     display: none;
@@ -2976,7 +2978,7 @@ body.landing #main {
 @media screen and (max-width: 736px) {
   /* Basic */
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 12pt;
   }
   h2 {
     font-size: 1.75em;
@@ -3079,7 +3081,7 @@ body.landing #main {
     min-width: 320px;
   }
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 12pt;
   }
   /* Section/Article */
   header.major {
